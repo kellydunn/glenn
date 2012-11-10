@@ -4,3 +4,5 @@ CC=gcc
 
 all:
 	$(CC) src/glenn.c $(CFLAGS) $(LDFLAGS) -o bin/glenn
+clean:
+	rm bin/*
